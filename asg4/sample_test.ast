@@ -1,0 +1,48 @@
+ROOT "" (0.0.0) {0} 
+|   FUNCTION "" (3.1.1) {0} function 
+|   |   INT "int" (3.1.1) {0} int 
+|   |   |   DECLID "fac" (3.1.5) {0} int function (0.0.0)
+|   |   PARAMLIST "(" (3.1.9) {0} 
+|   |   |   INT "int" (3.1.10) {0} int 
+|   |   |   |   DECLID "n" (3.1.14) {1} int variable param lval (0.0.0)
+|   |   BLOCK "{" (3.1.17) {0} 
+|   |   |   VARDECL "=" (3.2.11) {0} 
+|   |   |   |   INT "int" (3.2.5) {0} int 
+|   |   |   |   |   DECLID "f" (3.2.9) {1} int variable lval 
+|   |   |   |   INTCON "1" (3.2.13) {0} int const 
+|   |   |   WHILE "while" (3.3.5) {0} 
+|   |   |   |   GT ">" (3.3.14) {0} int vreg 
+|   |   |   |   |   IDENT "n" (3.3.12) {0} (0.0.0)
+|   |   |   |   |   INTCON "1" (3.3.16) {0} int const 
+|   |   |   |   BLOCK "{" (3.3.19) {0} 
+|   |   |   |   |   '=' "=" (3.4.11) {0} vreg 
+|   |   |   |   |   |   IDENT "f" (3.4.9) {0} variable lval 
+|   |   |   |   |   |   '*' "*" (3.4.13) {0} 
+|   |   |   |   |   |   |   IDENT "f" (3.4.12) {0} 
+|   |   |   |   |   |   |   IDENT "n" (3.4.14) {0} (0.0.0)
+|   |   |   |   |   '=' "=" (3.5.11) {0} vreg 
+|   |   |   |   |   |   IDENT "n" (3.5.9) {0} variable lval (0.0.0)
+|   |   |   |   |   |   '-' "-" (3.5.13) {0} 
+|   |   |   |   |   |   |   IDENT "n" (3.5.12) {0} (0.0.0)
+|   |   |   |   |   |   |   INTCON "1" (3.5.14) {0} int const 
+|   |   |   RETURN "return" (3.7.5) {0} 
+|   |   |   |   IDENT "f" (3.7.12) {0} 
+|   VARDECL "=" (3.9.7) {0} 
+|   |   INT "int" (3.9.1) {0} int 
+|   |   |   DECLID "n" (3.9.5) {0} int variable lval (0.0.0)
+|   |   INTCON "1" (3.9.9) {0} int const 
+|   WHILE "while" (3.10.1) {0} 
+|   |   LE "<=" (3.10.10) {0} int vreg 
+|   |   |   IDENT "n" (3.10.8) {0} (0.0.0)
+|   |   |   INTCON "5" (3.10.13) {0} int const 
+|   |   BLOCK "{" (3.10.16) {0} 
+|   |   |   CALL "(" (3.11.10) {0} 
+|   |   |   |   IDENT "puti" (3.11.5) {0} 
+|   |   |   |   CALL "(" (3.11.15) {0} 
+|   |   |   |   |   IDENT "fac" (3.11.11) {0} (0.0.0)
+|   |   |   |   |   IDENT "n" (3.11.16) {0} (0.0.0)
+|   |   |   '=' "=" (3.12.7) {0} vreg 
+|   |   |   |   IDENT "n" (3.12.5) {0} variable lval (0.0.0)
+|   |   |   |   '+' "+" (3.12.9) {0} 
+|   |   |   |   |   IDENT "n" (3.12.8) {0} (0.0.0)
+|   |   |   |   |   INTCON "1" (3.12.10) {0} int const 

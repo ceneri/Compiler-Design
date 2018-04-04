@@ -1,0 +1,10 @@
+string_set[   3]:    9782517693237612205 0x1efa5b8->"func"
+                    15816506932648033945 0x1efe978->"("
+                    12597418120160561823 0x1efe688->"int"
+string_set[   4]:    5344662657899890615 0x1efecd8->";"
+string_set[   6]:    6142509188972423790 0x1efa598->""
+string_set[   7]:   12868445110721718657 0x1efec08->")"
+                     4993892634952068459 0x1efeac8->"a"
+load_factor = 0.636
+bucket_count = 11
+max_bucket_size = 3

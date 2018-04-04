@@ -1,0 +1,4 @@
+func (3.2.5) {0} int function 
+    a (3.2.14) {1} int variable param lval 
+    b (3.2.21) {1} int variable param lval 
+

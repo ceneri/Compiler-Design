@@ -1,0 +1,5 @@
+checksource: improper character \x0D = ^M (carriage return)
+   file "parser.y": 327 errors: lines 1--327
+checksource: line length > 72 characters
+   file "parser.y": 2 errors: lines 234, 299
+checksource: TOTAL COMPLAINTS: 329

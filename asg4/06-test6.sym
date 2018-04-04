@@ -1,0 +1,4 @@
+foo (6.5.8) {0} 
+bar (6.6.8) {0} 
+s (6.13.8) {0} string variable lval 
+string (6.14.1) {0} string variable lval 

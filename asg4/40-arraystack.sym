@@ -1,0 +1,22 @@
+stack (6.7.8) {0} 
+    string (6.8.4) {0} string array 
+    size (6.9.8) {0} field int 
+    top (6.10.8) {0} field int 
+
+new_stack (6.13.7) {0} struct "stack" function 
+    size (6.13.22) {1} int variable param lval 
+
+    stack (6.14.10) {1} struct "stack" variable lval 
+push (6.21.6) {0} void function 
+    stack (6.21.18) {1} struct "stack" variable param lval 
+    str (6.21.32) {1} string variable param lval 
+
+pop (6.27.8) {0} string function 
+    stack (6.27.19) {1} struct "stack" variable param lval 
+
+    tmp (6.29.11) {4} string variable lval 
+empty (6.34.5) {0} int function 
+    stack (6.34.18) {1} struct "stack" variable param lval 
+
+string (6.39.1) {0} string variable lval 
+argi (6.42.5) {0} int variable lval 

@@ -1,0 +1,10 @@
+int (3.7.1) {0} int variable lval 
+reference (3.8.1) {0} variable lval 
+foo (3.11.6) {0} void function 
+    int (3.11.11) {1} int array variable param lval 
+    int (3.11.20) {1} int array variable param lval 
+
+foo (3.12.8) {0} 
+    a (3.12.18) {0} field int 
+    b (3.12.25) {0} field int 
+

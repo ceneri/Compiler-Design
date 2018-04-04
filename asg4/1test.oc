@@ -1,0 +1,4 @@
+struct lol{int x;}
+lol funct(int a, int b){
+	int c = a + b;
+}

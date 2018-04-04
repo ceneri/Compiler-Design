@@ -1,0 +1,21 @@
+ROOT "" (0.0.0) {0} 
+|   PROTOTYPE "" (3.1.1) {0} 
+|   |   INT "int" (3.1.1) {0} int 
+|   |   |   DECLID "func" (3.1.5) {0} int function (0.0.0)
+|   |   PARAMLIST "(" (3.1.9) {0} 
+|   |   |   INT "int" (3.1.10) {0} int 
+|   |   |   |   DECLID "a" (3.1.14) {0} int variable param lval (0.0.0)
+|   |   |   INT "int" (3.1.17) {0} int 
+|   |   |   |   DECLID "b" (3.1.21) {0} int variable param lval (0.0.0)
+|   FUNCTION "" (3.2.1) {0} function 
+|   |   INT "int" (3.2.1) {0} int 
+|   |   |   DECLID "func" (3.2.5) {0} int function (0.0.0)
+|   |   PARAMLIST "(" (3.2.9) {0} 
+|   |   |   INT "int" (3.2.10) {0} int 
+|   |   |   |   DECLID "a" (3.2.14) {1} int variable param lval (0.0.0)
+|   |   |   INT "int" (3.2.17) {0} int 
+|   |   |   |   DECLID "b" (3.2.21) {1} int variable param lval (0.0.0)
+|   |   BLOCK "{" (3.2.23) {0} 
+|   |   |   '=' "=" (3.3.4) {0} vreg 
+|   |   |   |   IDENT "a" (3.3.2) {0} variable lval (0.0.0)
+|   |   |   |   INTCON "2" (3.3.6) {0} int const 

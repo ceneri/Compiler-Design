@@ -1,0 +1,7 @@
+dot_product (6.5.5) {0} int function 
+    size (6.5.22) {1} int variable param lval 
+    int (6.5.28) {1} int array variable param lval 
+    int (6.5.40) {1} int array variable param lval 
+
+int (6.16.1) {0} int variable lval 
+int (6.17.1) {0} int variable lval 

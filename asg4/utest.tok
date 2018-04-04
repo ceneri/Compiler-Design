@@ -1,0 +1,11 @@
+#  1  "utest.oc" 
+#  2  "<built-in>" 
+#  3  "<command-line>" 
+#  4  "utest.oc" 
+   4   1.001  260  TOK_INT         (int)
+   4   1.005  276  TOK_IDENT       (func)
+   4   1.009  40   '('             (()
+   4   1.010  260  TOK_INT         (int)
+   4   1.014  276  TOK_IDENT       (a)
+   4   1.015  41   ')'             ())
+   4   1.016  59   ';'             (;)

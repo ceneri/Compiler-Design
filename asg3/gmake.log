@@ -1,0 +1,38 @@
+Makefile:106: Makefile.deps: No such file or directory
+gmake --no-print-directory deps
+flex --outfile=yylex.cpp scanner.l
+flex version 2.5.37 usage statistics:
+  scanner options: -dsvI8 -Cem -oyylex.cpp
+  254/2000 NFA states
+  87/1000 DFA states (470 words)
+  45 rules
+  Compressed tables always back-up
+  1/40 start conditions
+  148 epsilon states, 63 double epsilon states
+  19/100 character classes needed 238/500 words of storage, 0 reused
+  1269 state/nextstate pairs created
+  216/1053 unique/duplicate transitions
+  93/1000 base-def entries created
+  165/2000 (peak 313) nxt-chk entries created
+  24/2500 (peak 270) template nxt-chk entries created
+  0 empty table entries
+  6 protos created
+  6 templates created, 52 uses
+  45/256 equivalence classes created
+  4/256 meta-equivalence classes created
+  0 (0 saved) hash collisions, 132 DFAs equal
+  0 sets of reallocations needed
+  817 total table entries needed
+bison --defines=yyparse.h --output=yyparse.cpp  parser.y
+parser.y: warning: 1 shift/reduce conflict [-Wconflicts-sr]
+parser.y: warning: 63 reduce/reduce conflicts [-Wconflicts-rr]
+# yyparse.xml >yyparse.html
+g++ -MM -std=gnu++14 astree.cpp lyutils.cpp string_set.cpp auxlib.cpp oc.cpp yylex.cpp yyparse.cpp >>Makefile.deps
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c astree.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c lyutils.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c string_set.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c auxlib.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c oc.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -Wno-sign-compare -c yylex.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c yyparse.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -ooc astree.o lyutils.o string_set.o auxlib.o oc.o yylex.o yyparse.o

@@ -1,0 +1,23 @@
+node (6.5.8) {0} 
+    data (6.6.11) {0} field string 
+    link (6.7.9) {0} struct "node" field 
+
+stack (6.10.8) {0} 
+    top (6.11.9) {0} struct "node" field 
+
+empty (6.14.5) {0} int function 
+    stack (6.14.18) {1} struct "stack" variable param lval 
+
+new_stack (6.19.7) {0} struct "stack" function 
+
+push (6.25.6) {0} void function 
+    stack (6.25.18) {1} struct "stack" variable param lval 
+    str (6.25.32) {1} string variable param lval 
+
+    tmp (6.27.9) {4} struct "node" variable lval 
+pop (6.33.8) {0} string function 
+    stack (6.33.19) {1} struct "stack" variable param lval 
+
+    tmp (6.36.11) {6} string variable lval 
+string (6.43.1) {0} string variable lval 
+argi (6.45.5) {0} int variable lval 

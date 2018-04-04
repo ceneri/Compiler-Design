@@ -1,0 +1,113 @@
+ROOT "" (0.0.0) {0} 
+|   PROTOTYPE "" (5.28.1) {0} 
+|   |   VOID "void" (5.28.1) {0} void 
+|   |   |   DECLID "__assert_fail" (5.28.6) {0} void function 
+|   |   PARAMLIST "(" (5.28.20) {0} 
+|   |   |   STRING "string" (5.28.21) {0} string (0.0.0)
+|   |   |   |   DECLID "expr" (5.28.28) {0} string variable param lval 
+|   |   |   STRING "string" (5.28.34) {0} string (0.0.0)
+|   |   |   |   DECLID "file" (5.28.41) {0} string variable param lval 
+|   |   |   INT "int" (5.28.47) {0} int 
+|   |   |   |   DECLID "line" (5.28.51) {0} int variable param lval 
+|   PROTOTYPE "" (5.29.1) {0} 
+|   |   VOID "void" (5.29.1) {0} void 
+|   |   |   DECLID "putb" (5.29.6) {0} void function 
+|   |   PARAMLIST "(" (5.29.11) {0} 
+|   |   |   INT "int" (5.29.12) {0} int 
+|   |   |   |   DECLID "b" (5.29.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.30.1) {0} 
+|   |   VOID "void" (5.30.1) {0} void 
+|   |   |   DECLID "putc" (5.30.6) {0} void function 
+|   |   PARAMLIST "(" (5.30.11) {0} 
+|   |   |   INT "int" (5.30.12) {0} int 
+|   |   |   |   DECLID "c" (5.30.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.31.1) {0} 
+|   |   VOID "void" (5.31.1) {0} void 
+|   |   |   DECLID "puti" (5.31.6) {0} void function 
+|   |   PARAMLIST "(" (5.31.11) {0} 
+|   |   |   INT "int" (5.31.12) {0} int 
+|   |   |   |   DECLID "i" (5.31.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.32.1) {0} 
+|   |   VOID "void" (5.32.1) {0} void 
+|   |   |   DECLID "puts" (5.32.6) {0} void function 
+|   |   PARAMLIST "(" (5.32.11) {0} 
+|   |   |   STRING "string" (5.32.12) {0} string (0.0.0)
+|   |   |   |   DECLID "s" (5.32.19) {0} string variable param lval (0.0.0)
+|   PROTOTYPE "" (5.33.1) {0} 
+|   |   VOID "void" (5.33.1) {0} void 
+|   |   |   DECLID "endl" (5.33.6) {0} void function 
+|   |   PARAMLIST "(" (5.33.11) {0} 
+|   PROTOTYPE "" (5.34.1) {0} 
+|   |   INT "int" (5.34.1) {0} int 
+|   |   |   DECLID "getc" (5.34.5) {0} int function 
+|   |   PARAMLIST "(" (5.34.10) {0} 
+|   PROTOTYPE "" (5.35.1) {0} 
+|   |   STRING "string" (5.35.1) {0} string (0.0.0)
+|   |   |   DECLID "getw" (5.35.8) {0} string function 
+|   |   PARAMLIST "(" (5.35.13) {0} 
+|   PROTOTYPE "" (5.36.1) {0} 
+|   |   STRING "string" (5.36.1) {0} string (0.0.0)
+|   |   |   DECLID "getln" (5.36.8) {0} string function 
+|   |   PARAMLIST "(" (5.36.14) {0} 
+|   PROTOTYPE "" (5.37.7) {0} 
+|   |   ARRAY "[]" (5.37.7) {0} array 
+|   |   |   STRING "string" (5.37.1) {0} string array function (0.0.0)
+|   |   |   DECLID "getargv" (5.37.10) {0} 
+|   |   PARAMLIST "(" (5.37.18) {0} 
+|   PROTOTYPE "" (5.38.1) {0} 
+|   |   VOID "void" (5.38.1) {0} void 
+|   |   |   DECLID "exit" (5.38.6) {0} void function 
+|   |   PARAMLIST "(" (5.38.11) {0} 
+|   |   |   INT "int" (5.38.12) {0} int 
+|   |   |   |   DECLID "status" (5.38.16) {0} int variable param lval 
+|   STRUCT "struct" (6.5.1) {0} 
+|   |   TYPEID "foo" (6.5.8) {0} 
+|   STRUCT "struct" (6.6.1) {0} 
+|   |   TYPEID "bar" (6.6.8) {0} 
+|   PROTOTYPE "" (6.8.1) {0} 
+|   |   INT "int" (6.8.1) {0} int 
+|   |   |   DECLID "f0" (6.8.5) {0} int function 
+|   |   PARAMLIST "(" (6.8.8) {0} 
+|   PROTOTYPE "" (6.9.1) {0} 
+|   |   INT "int" (6.9.1) {0} int 
+|   |   |   DECLID "f1" (6.9.5) {0} int function 
+|   |   PARAMLIST "(" (6.9.8) {0} 
+|   |   |   INT "int" (6.9.9) {0} int 
+|   |   |   |   DECLID "a" (6.9.13) {0} int variable param lval 
+|   PROTOTYPE "" (6.10.1) {0} 
+|   |   INT "int" (6.10.1) {0} int 
+|   |   |   DECLID "f2" (6.10.5) {0} int function 
+|   |   PARAMLIST "(" (6.10.8) {0} 
+|   |   |   INT "int" (6.10.9) {0} int 
+|   |   |   |   DECLID "a" (6.10.13) {0} int variable param lval 
+|   |   |   INT "int" (6.10.16) {0} int 
+|   |   |   |   DECLID "b" (6.10.20) {0} int variable param lval 
+|   PROTOTYPE "" (6.11.1) {0} 
+|   |   INT "int" (6.11.1) {0} int 
+|   |   |   DECLID "f3" (6.11.5) {0} int function 
+|   |   PARAMLIST "(" (6.11.8) {0} 
+|   |   |   STRING "string" (6.11.9) {0} string (0.0.0)
+|   |   |   |   DECLID "a" (6.11.16) {0} string variable param lval 
+|   |   |   STRING "string" (6.11.19) {0} string (0.0.0)
+|   |   |   |   DECLID "b" (6.11.26) {0} string variable param lval 
+|   |   |   STRING "string" (6.11.29) {0} string (0.0.0)
+|   |   |   |   DECLID "c" (6.11.36) {0} string variable param lval 
+|   PROTOTYPE "" (6.12.1) {0} 
+|   |   INT "int" (6.12.1) {0} int 
+|   |   |   DECLID "f4" (6.12.5) {0} int function 
+|   |   PARAMLIST "(" (6.12.8) {0} 
+|   |   |   TYPEID "foo" (6.12.9) {0} 
+|   |   |   |   DECLID "a" (6.12.13) {0} variable param lval 
+|   |   |   TYPEID "bar" (6.12.16) {0} 
+|   |   |   |   DECLID "b" (6.12.20) {0} variable param lval 
+|   VARDECL "=" (6.13.10) {0} 
+|   |   STRING "string" (6.13.1) {0} string (0.0.0)
+|   |   |   DECLID "s" (6.13.8) {0} string variable lval (0.0.0)
+|   |   STRINGCON ""a"" (6.13.12) {0} string const 
+|   VARDECL "=" (6.14.13) {0} 
+|   |   ARRAY "[]" (6.14.7) {0} array 
+|   |   |   STRING "string" (6.14.1) {0} string variable lval (0.0.0)
+|   |   |   DECLID "sa" (6.14.10) {0} 
+|   |   NEWARRAY "new" (6.14.15) {0} 
+|   |   |   STRING "string" (6.14.19) {0} string (0.0.0)
+|   |   |   INTCON "10" (6.14.26) {0} int const 

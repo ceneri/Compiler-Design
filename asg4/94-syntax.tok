@@ -1,0 +1,6 @@
+#  1  "94-syntax.oc" 
+#  2  "<built-in>" 
+#  3  "<command-line>" 
+#  4  "94-syntax.oc" 
+   4   2.001  276  TOK_IDENT       (k)
+   4   3.001  260  TOK_INT         (int)

@@ -1,0 +1,92 @@
+ROOT "" (0.0.0) {0} 
+|   PROTOTYPE "" (5.28.1) {0} 
+|   |   VOID "void" (5.28.1) {0} void 
+|   |   |   DECLID "__assert_fail" (5.28.6) {0} void function 
+|   |   PARAMLIST "(" (5.28.20) {0} 
+|   |   |   STRING "string" (5.28.21) {0} string 
+|   |   |   |   DECLID "expr" (5.28.28) {0} string variable param lval 
+|   |   |   STRING "string" (5.28.34) {0} string 
+|   |   |   |   DECLID "file" (5.28.41) {0} string variable param lval 
+|   |   |   INT "int" (5.28.47) {0} int 
+|   |   |   |   DECLID "line" (5.28.51) {0} int variable param lval 
+|   PROTOTYPE "" (5.29.1) {0} 
+|   |   VOID "void" (5.29.1) {0} void 
+|   |   |   DECLID "putb" (5.29.6) {0} void function 
+|   |   PARAMLIST "(" (5.29.11) {0} 
+|   |   |   INT "int" (5.29.12) {0} int 
+|   |   |   |   DECLID "b" (5.29.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.30.1) {0} 
+|   |   VOID "void" (5.30.1) {0} void 
+|   |   |   DECLID "putc" (5.30.6) {0} void function 
+|   |   PARAMLIST "(" (5.30.11) {0} 
+|   |   |   INT "int" (5.30.12) {0} int 
+|   |   |   |   DECLID "c" (5.30.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.31.1) {0} 
+|   |   VOID "void" (5.31.1) {0} void 
+|   |   |   DECLID "puti" (5.31.6) {0} void function 
+|   |   PARAMLIST "(" (5.31.11) {0} 
+|   |   |   INT "int" (5.31.12) {0} int 
+|   |   |   |   DECLID "i" (5.31.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.32.1) {0} 
+|   |   VOID "void" (5.32.1) {0} void 
+|   |   |   DECLID "puts" (5.32.6) {0} void function 
+|   |   PARAMLIST "(" (5.32.11) {0} 
+|   |   |   STRING "string" (5.32.12) {0} string 
+|   |   |   |   DECLID "s" (5.32.19) {0} string variable param lval 
+|   PROTOTYPE "" (5.33.1) {0} 
+|   |   VOID "void" (5.33.1) {0} void 
+|   |   |   DECLID "endl" (5.33.6) {0} void function 
+|   |   PARAMLIST "(" (5.33.11) {0} 
+|   PROTOTYPE "" (5.34.1) {0} 
+|   |   INT "int" (5.34.1) {0} int 
+|   |   |   DECLID "getc" (5.34.5) {0} int function 
+|   |   PARAMLIST "(" (5.34.10) {0} 
+|   PROTOTYPE "" (5.35.1) {0} 
+|   |   STRING "string" (5.35.1) {0} string 
+|   |   |   DECLID "getw" (5.35.8) {0} string function 
+|   |   PARAMLIST "(" (5.35.13) {0} 
+|   PROTOTYPE "" (5.36.1) {0} 
+|   |   STRING "string" (5.36.1) {0} string 
+|   |   |   DECLID "getln" (5.36.8) {0} string function 
+|   |   PARAMLIST "(" (5.36.14) {0} 
+|   PROTOTYPE "" (5.37.7) {0} 
+|   |   ARRAY "[]" (5.37.7) {0} array 
+|   |   |   STRING "string" (5.37.1) {0} string array function 
+|   |   |   DECLID "getargv" (5.37.10) {0} 
+|   |   PARAMLIST "(" (5.37.18) {0} 
+|   PROTOTYPE "" (5.38.1) {0} 
+|   |   VOID "void" (5.38.1) {0} void 
+|   |   |   DECLID "exit" (5.38.6) {0} void function 
+|   |   PARAMLIST "(" (5.38.11) {0} 
+|   |   |   INT "int" (5.38.12) {0} int 
+|   |   |   |   DECLID "status" (5.38.16) {0} int variable param lval 
+|   VARDECL "=" (6.5.7) {0} 
+|   |   INT "int" (6.5.1) {0} int 
+|   |   |   DECLID "a" (6.5.5) {0} int variable lval (0.0.0)
+|   |   INTCON "3" (6.5.9) {0} int const 
+|   IFELSE "if" (6.7.1) {0} 
+|   |   EQ "==" (6.7.7) {0} int vreg 
+|   |   |   IDENT "a" (6.7.5) {0} (0.0.0)
+|   |   |   INTCON "1" (6.7.10) {0} int const 
+|   |   CALL "(" (6.7.18) {0} 
+|   |   |   IDENT "puts" (6.7.13) {0} 
+|   |   |   STRINGCON ""one"" (6.7.19) {0} string const 
+|   |   IFELSE "if" (6.8.6) {0} 
+|   |   |   EQ "==" (6.8.12) {0} int vreg 
+|   |   |   |   IDENT "a" (6.8.10) {0} (0.0.0)
+|   |   |   |   INTCON "2" (6.8.15) {0} int const 
+|   |   |   CALL "(" (6.8.23) {0} 
+|   |   |   |   IDENT "puts" (6.8.18) {0} 
+|   |   |   |   STRINGCON ""two"" (6.8.24) {0} string const 
+|   |   |   IFELSE "if" (6.9.6) {0} 
+|   |   |   |   EQ "==" (6.9.12) {0} int vreg 
+|   |   |   |   |   IDENT "a" (6.9.10) {0} (0.0.0)
+|   |   |   |   |   INTCON "3" (6.9.15) {0} int const 
+|   |   |   |   CALL "(" (6.9.23) {0} 
+|   |   |   |   |   IDENT "puts" (6.9.18) {0} 
+|   |   |   |   |   STRINGCON ""three"" (6.9.24) {0} string const 
+|   |   |   |   CALL "(" (6.10.11) {0} 
+|   |   |   |   |   IDENT "puts" (6.10.6) {0} 
+|   |   |   |   |   STRINGCON ""many"" (6.10.12) {0} string const 
+|   CALL "(" (6.11.6) {0} 
+|   |   IDENT "endl" (6.11.1) {0} 

@@ -1,0 +1,14 @@
+#  1  "dtest.oc" 
+#  2  "<built-in>" 
+#  3  "<command-line>" 
+#  4  "dtest.oc" 
+   4   1.001  260  TOK_INT         (int)
+   4   1.005  276  TOK_IDENT       (fun)
+   4   1.008  40   '('             (()
+   4   1.009  260  TOK_INT         (int)
+   4   1.013  276  TOK_IDENT       (a)
+   4   1.014  44   ','             (,)
+   4   1.016  260  TOK_INT         (int)
+   4   1.020  276  TOK_IDENT       (b)
+   4   1.021  41   ')'             ())
+   4   1.022  59   ';'             (;)

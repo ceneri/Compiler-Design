@@ -1,0 +1,217 @@
+ROOT "" (0.0.0) {0} 
+|   PROTOTYPE "" (5.28.1) {0} 
+|   |   VOID "void" (5.28.1) {0} void 
+|   |   |   DECLID "__assert_fail" (5.28.6) {0} void function 
+|   |   PARAMLIST "(" (5.28.20) {0} 
+|   |   |   STRING "string" (5.28.21) {0} string (0.0.0)
+|   |   |   |   DECLID "expr" (5.28.28) {0} string variable param lval 
+|   |   |   STRING "string" (5.28.34) {0} string (0.0.0)
+|   |   |   |   DECLID "file" (5.28.41) {0} string variable param lval 
+|   |   |   INT "int" (5.28.47) {0} int 
+|   |   |   |   DECLID "line" (5.28.51) {0} int variable param lval 
+|   PROTOTYPE "" (5.29.1) {0} 
+|   |   VOID "void" (5.29.1) {0} void 
+|   |   |   DECLID "putb" (5.29.6) {0} void function 
+|   |   PARAMLIST "(" (5.29.11) {0} 
+|   |   |   INT "int" (5.29.12) {0} int 
+|   |   |   |   DECLID "b" (5.29.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.30.1) {0} 
+|   |   VOID "void" (5.30.1) {0} void 
+|   |   |   DECLID "putc" (5.30.6) {0} void function 
+|   |   PARAMLIST "(" (5.30.11) {0} 
+|   |   |   INT "int" (5.30.12) {0} int 
+|   |   |   |   DECLID "c" (5.30.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.31.1) {0} 
+|   |   VOID "void" (5.31.1) {0} void 
+|   |   |   DECLID "puti" (5.31.6) {0} void function 
+|   |   PARAMLIST "(" (5.31.11) {0} 
+|   |   |   INT "int" (5.31.12) {0} int 
+|   |   |   |   DECLID "i" (5.31.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.32.1) {0} 
+|   |   VOID "void" (5.32.1) {0} void 
+|   |   |   DECLID "puts" (5.32.6) {0} void function 
+|   |   PARAMLIST "(" (5.32.11) {0} 
+|   |   |   STRING "string" (5.32.12) {0} string (0.0.0)
+|   |   |   |   DECLID "s" (5.32.19) {0} string variable param lval 
+|   PROTOTYPE "" (5.33.1) {0} 
+|   |   VOID "void" (5.33.1) {0} void 
+|   |   |   DECLID "endl" (5.33.6) {0} void function 
+|   |   PARAMLIST "(" (5.33.11) {0} 
+|   PROTOTYPE "" (5.34.1) {0} 
+|   |   INT "int" (5.34.1) {0} int 
+|   |   |   DECLID "getc" (5.34.5) {0} int function 
+|   |   PARAMLIST "(" (5.34.10) {0} 
+|   PROTOTYPE "" (5.35.1) {0} 
+|   |   STRING "string" (5.35.1) {0} string (0.0.0)
+|   |   |   DECLID "getw" (5.35.8) {0} string function 
+|   |   PARAMLIST "(" (5.35.13) {0} 
+|   PROTOTYPE "" (5.36.1) {0} 
+|   |   STRING "string" (5.36.1) {0} string (0.0.0)
+|   |   |   DECLID "getln" (5.36.8) {0} string function 
+|   |   PARAMLIST "(" (5.36.14) {0} 
+|   PROTOTYPE "" (5.37.7) {0} 
+|   |   ARRAY "[]" (5.37.7) {0} array 
+|   |   |   STRING "string" (5.37.1) {0} string array function (0.0.0)
+|   |   |   DECLID "getargv" (5.37.10) {0} 
+|   |   PARAMLIST "(" (5.37.18) {0} 
+|   PROTOTYPE "" (5.38.1) {0} 
+|   |   VOID "void" (5.38.1) {0} void 
+|   |   |   DECLID "exit" (5.38.6) {0} void function 
+|   |   PARAMLIST "(" (5.38.11) {0} 
+|   |   |   INT "int" (5.38.12) {0} int 
+|   |   |   |   DECLID "status" (5.38.16) {0} int variable param lval 
+|   FUNCTION "" (6.5.1) {0} function 
+|   |   INT "int" (6.5.1) {0} int 
+|   |   |   DECLID "atoi" (6.5.5) {0} int function (0.0.0)
+|   |   PARAMLIST "(" (6.5.10) {0} 
+|   |   |   STRING "string" (6.5.11) {0} string (0.0.0)
+|   |   |   |   DECLID "str" (6.5.18) {1} string variable param lval (0.0.0)
+|   |   BLOCK "{" (6.5.23) {0} 
+|   |   |   BLOCK "{" (6.6.4) {0} 
+|   |   |   |   IF "if" (6.6.5) {0} 
+|   |   |   |   |   '!' "!" (6.6.9) {0} int vreg 
+|   |   |   |   |   |   NE "!=" (6.6.15) {0} int vreg 
+|   |   |   |   |   |   |   IDENT "str" (6.6.11) {0} (0.0.0)
+|   |   |   |   |   |   |   NULL "null" (6.6.18) {0} null const 
+|   |   |   |   |   CALL "(" (6.6.39) {0} 
+|   |   |   |   |   |   IDENT "__assert_fail" (6.6.25) {0} 
+|   |   |   |   |   |   STRINGCON ""str != null"" (6.6.40) {0} string const 
+|   |   |   |   |   |   STRINGCON ""23-atoi.oc"" (6.6.55) {0} string const 
+|   |   |   |   |   |   INTCON "6" (6.6.69) {0} int const 
+|   |   |   INT "int" (6.7.4) {0} int 
+|   |   |   |   DECLID "neg" (6.7.8) {1} int variable lval 
+|   |   |   VARDECL "=" (6.7.12) {0} 
+|   |   |   |   INT "int" (6.7.4) {0} int 
+|   |   |   |   |   DECLID "neg" (6.7.8) {1} int variable lval 
+|   |   |   |   INTCON "0" (6.7.14) {0} int const 
+|   |   |   VARDECL "=" (6.8.12) {0} 
+|   |   |   |   INT "int" (6.8.4) {0} int 
+|   |   |   |   |   DECLID "num" (6.8.8) {1} int variable lval 
+|   |   |   |   INTCON "0" (6.8.14) {0} int const 
+|   |   |   VARDECL "=" (6.9.14) {0} 
+|   |   |   |   INT "int" (6.9.4) {0} int 
+|   |   |   |   |   DECLID "digit" (6.9.8) {1} int variable lval 
+|   |   |   |   INTCON "0" (6.9.16) {0} int const 
+|   |   |   IF "if" (6.10.4) {0} 
+|   |   |   |   NE "!=" (6.10.15) {0} int vreg 
+|   |   |   |   |   INDEX "[" (6.10.11) {0} 
+|   |   |   |   |   |   IDENT "str" (6.10.8) {0} (0.0.0)
+|   |   |   |   |   |   INTCON "0" (6.10.12) {0} int const 
+|   |   |   |   |   CHARCON "'\0'" (6.10.18) {0} 
+|   |   |   |   BLOCK "{" (6.10.24) {0} 
+|   |   |   |   |   IF "if" (6.11.7) {0} 
+|   |   |   |   |   |   EQ "==" (6.11.18) {0} int vreg 
+|   |   |   |   |   |   |   INDEX "[" (6.11.14) {0} 
+|   |   |   |   |   |   |   |   IDENT "str" (6.11.11) {0} (0.0.0)
+|   |   |   |   |   |   |   |   INTCON "0" (6.11.15) {0} int const 
+|   |   |   |   |   |   |   CHARCON "'-'" (6.11.21) {0} 
+|   |   |   |   |   |   BLOCK "{" (6.11.26) {0} 
+|   |   |   |   |   |   |   '=' "=" (6.12.16) {0} vreg 
+|   |   |   |   |   |   |   |   IDENT "digit" (6.12.10) {0} variable lval 
+|   |   |   |   |   |   |   |   '+' "+" (6.12.24) {0} 
+|   |   |   |   |   |   |   |   |   IDENT "digit" (6.12.18) {0} 
+|   |   |   |   |   |   |   |   |   INTCON "1" (6.12.26) {0} int const 
+|   |   |   |   |   |   |   '=' "=" (6.13.14) {0} vreg 
+|   |   |   |   |   |   |   |   IDENT "neg" (6.13.10) {0} variable lval 
+|   |   |   |   |   |   |   |   INTCON "1" (6.13.16) {0} int const 
+|   |   |   |   |   VARDECL "=" (6.15.18) {0} 
+|   |   |   |   |   |   INT "int" (6.15.7) {0} int 
+|   |   |   |   |   |   |   DECLID "contin" (6.15.11) {3} int variable lval 
+|   |   |   |   |   |   INTCON "1" (6.15.20) {0} int const 
+|   |   |   |   |   WHILE "while" (6.16.7) {0} 
+|   |   |   |   |   |   IDENT "contin" (6.16.14) {0} 
+|   |   |   |   |   |   BLOCK "{" (6.16.22) {0} 
+|   |   |   |   |   |   |   IFELSE "if" (6.17.10) {0} 
+|   |   |   |   |   |   |   |   EQ "==" (6.17.25) {0} int vreg 
+|   |   |   |   |   |   |   |   |   INDEX "[" (6.17.17) {0} 
+|   |   |   |   |   |   |   |   |   |   IDENT "str" (6.17.14) {0} (0.0.0)
+|   |   |   |   |   |   |   |   |   |   IDENT "digit" (6.17.18) {0} 
+|   |   |   |   |   |   |   |   |   CHARCON "'\0'" (6.17.28) {0} 
+|   |   |   |   |   |   |   |   BLOCK "{" (6.17.34) {0} 
+|   |   |   |   |   |   |   |   |   '=' "=" (6.18.20) {0} vreg 
+|   |   |   |   |   |   |   |   |   |   IDENT "contin" (6.18.13) {0} variable lval 
+|   |   |   |   |   |   |   |   |   |   INTCON "0" (6.18.22) {0} int const 
+|   |   |   |   |   |   |   |   BLOCK "{" (6.19.16) {0} 
+|   |   |   |   |   |   |   |   |   VARDECL "=" (6.20.19) {0} 
+|   |   |   |   |   |   |   |   |   |   INT "int" (6.20.13) {0} int 
+|   |   |   |   |   |   |   |   |   |   |   DECLID "c" (6.20.17) {7} int variable lval 
+|   |   |   |   |   |   |   |   |   |   INDEX "[" (6.20.24) {0} 
+|   |   |   |   |   |   |   |   |   |   |   IDENT "str" (6.20.21) {0} (0.0.0)
+|   |   |   |   |   |   |   |   |   |   |   IDENT "digit" (6.20.25) {0} 
+|   |   |   |   |   |   |   |   |   '=' "=" (6.21.19) {0} vreg 
+|   |   |   |   |   |   |   |   |   |   IDENT "digit" (6.21.13) {0} variable lval 
+|   |   |   |   |   |   |   |   |   |   '+' "+" (6.21.27) {0} 
+|   |   |   |   |   |   |   |   |   |   |   IDENT "digit" (6.21.21) {0} 
+|   |   |   |   |   |   |   |   |   |   |   INTCON "1" (6.21.29) {0} int const 
+|   |   |   |   |   |   |   |   |   IFELSE "if" (6.22.13) {0} 
+|   |   |   |   |   |   |   |   |   |   LT "<" (6.22.19) {0} int vreg 
+|   |   |   |   |   |   |   |   |   |   |   IDENT "c" (6.22.17) {0} 
+|   |   |   |   |   |   |   |   |   |   |   CHARCON "'0'" (6.22.21) {0} 
+|   |   |   |   |   |   |   |   |   |   '=' "=" (6.22.33) {0} vreg 
+|   |   |   |   |   |   |   |   |   |   |   IDENT "contin" (6.22.26) {0} variable lval 
+|   |   |   |   |   |   |   |   |   |   |   INTCON "0" (6.22.35) {0} int const 
+|   |   |   |   |   |   |   |   |   |   IFELSE "if" (6.23.18) {0} 
+|   |   |   |   |   |   |   |   |   |   |   GT ">" (6.23.24) {0} int vreg 
+|   |   |   |   |   |   |   |   |   |   |   |   IDENT "c" (6.23.22) {0} 
+|   |   |   |   |   |   |   |   |   |   |   |   CHARCON "'9'" (6.23.26) {0} 
+|   |   |   |   |   |   |   |   |   |   |   '=' "=" (6.23.38) {0} vreg 
+|   |   |   |   |   |   |   |   |   |   |   |   IDENT "contin" (6.23.31) {0} variable lval 
+|   |   |   |   |   |   |   |   |   |   |   |   INTCON "0" (6.23.40) {0} int const 
+|   |   |   |   |   |   |   |   |   |   |   '=' "=" (6.24.22) {0} vreg 
+|   |   |   |   |   |   |   |   |   |   |   |   IDENT "num" (6.24.18) {0} variable lval 
+|   |   |   |   |   |   |   |   |   |   |   |   '-' "-" (6.24.37) {0} 
+|   |   |   |   |   |   |   |   |   |   |   |   |   '+' "+" (6.24.33) {0} 
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   '*' "*" (6.24.28) {0} 
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IDENT "num" (6.24.24) {0} 
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   INTCON "10" (6.24.30) {0} int const 
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   IDENT "c" (6.24.35) {0} 
+|   |   |   |   |   |   |   |   |   |   |   |   |   CHARCON "'0'" (6.24.39) {0} 
+|   |   |   |   |   IF "if" (6.27.7) {0} 
+|   |   |   |   |   |   IDENT "neg" (6.27.11) {0} 
+|   |   |   |   |   |   '=' "=" (6.27.20) {0} vreg 
+|   |   |   |   |   |   |   IDENT "num" (6.27.16) {0} variable lval 
+|   |   |   |   |   |   |   NEG "-" (6.27.22) {0} 
+|   |   |   |   |   |   |   |   IDENT "num" (6.27.24) {0} 
+|   |   |   RETURN "return" (6.29.4) {0} 
+|   |   |   |   IDENT "num" (6.29.11) {0} 
+|   VARDECL "=" (6.32.10) {0} 
+|   |   INT "int" (6.32.1) {0} int 
+|   |   |   DECLID "argi" (6.32.5) {0} int variable lval (0.0.0)
+|   |   INTCON "1" (6.32.12) {0} int const 
+|   VARDECL "=" (6.33.15) {0} 
+|   |   ARRAY "[]" (6.33.7) {0} array 
+|   |   |   STRING "string" (6.33.1) {0} string variable lval (0.0.0)
+|   |   |   DECLID "argv" (6.33.10) {0} 
+|   |   CALL "(" (6.33.25) {0} 
+|   |   |   IDENT "getargv" (6.33.17) {0} 
+|   WHILE "while" (6.34.1) {0} 
+|   |   NE "!=" (6.34.19) {0} int vreg 
+|   |   |   INDEX "[" (6.34.12) {0} 
+|   |   |   |   IDENT "argv" (6.34.8) {0} 
+|   |   |   |   IDENT "argi" (6.34.13) {0} (0.0.0)
+|   |   |   NULL "null" (6.34.22) {0} null const 
+|   |   BLOCK "{" (6.34.28) {0} 
+|   |   |   VARDECL "=" (6.35.15) {0} 
+|   |   |   |   STRING "string" (6.35.4) {0} string (0.0.0)
+|   |   |   |   |   DECLID "arg" (6.35.11) {0} string variable lval 
+|   |   |   |   INDEX "[" (6.35.21) {0} 
+|   |   |   |   |   IDENT "argv" (6.35.17) {0} 
+|   |   |   |   |   IDENT "argi" (6.35.22) {0} (0.0.0)
+|   |   |   CALL "(" (6.36.9) {0} 
+|   |   |   |   IDENT "puts" (6.36.4) {0} 
+|   |   |   |   IDENT "arg" (6.36.10) {0} 
+|   |   |   CALL "(" (6.37.9) {0} 
+|   |   |   |   IDENT "puts" (6.37.4) {0} 
+|   |   |   |   STRINGCON "" = "" (6.37.10) {0} string const 
+|   |   |   CALL "(" (6.38.9) {0} 
+|   |   |   |   IDENT "puti" (6.38.4) {0} 
+|   |   |   |   CALL "(" (6.38.15) {0} 
+|   |   |   |   |   IDENT "atoi" (6.38.10) {0} (0.0.0)
+|   |   |   |   |   IDENT "arg" (6.38.16) {0} 
+|   |   |   CALL "(" (6.39.9) {0} 
+|   |   |   |   IDENT "endl" (6.39.4) {0} 
+|   |   |   '=' "=" (6.40.9) {0} vreg 
+|   |   |   |   IDENT "argi" (6.40.4) {0} variable lval (0.0.0)
+|   |   |   |   '+' "+" (6.40.16) {0} 
+|   |   |   |   |   IDENT "argi" (6.40.11) {0} (0.0.0)
+|   |   |   |   |   INTCON "1" (6.40.18) {0} int const 

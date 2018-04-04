@@ -1,0 +1,10 @@
+move (6.5.6) {0} void function 
+    src (6.5.19) {1} string variable param lval 
+    dst (6.5.31) {1} string variable param lval 
+
+towers (6.13.6) {0} void function 
+    ndisks (6.13.18) {1} int variable param lval 
+    src (6.13.33) {1} string variable param lval 
+    tmp (6.13.45) {1} string variable param lval 
+    dst (6.13.57) {1} string variable param lval 
+

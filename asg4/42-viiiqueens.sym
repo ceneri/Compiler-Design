@@ -1,0 +1,9 @@
+int (6.6.1) {0} int variable lval 
+is_safe (6.8.5) {0} int function 
+    newcol (6.8.18) {1} int variable param lval 
+
+printqueens (6.20.6) {0} void function 
+
+queens (6.29.6) {0} void function 
+    newcol (6.29.18) {1} int variable param lval 
+

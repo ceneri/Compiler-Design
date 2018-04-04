@@ -1,0 +1,7 @@
+#  1  "90-c8q.oc" 
+#  2  "<built-in>" 
+#  3  "<command-line>" 
+#  4  "90-c8q.oc" 
+   4   1.001  259  TOK_CHAR        (char)
+   4   1.006  276  TOK_IDENT       (O)
+   4   1.007  91   '['             ([)

@@ -1,0 +1,10 @@
+atoi (6.5.5) {0} int function 
+    str (6.5.18) {1} string variable param lval 
+
+    neg (6.7.8) {1} int variable lval 
+    num (6.8.8) {1} int variable lval 
+    digit (6.9.8) {1} int variable lval 
+        contin (6.15.11) {3} int variable lval 
+                c (6.20.17) {7} int variable lval 
+argi (6.32.5) {0} int variable lval 
+string (6.33.1) {0} string variable lval 

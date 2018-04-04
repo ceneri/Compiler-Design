@@ -1,0 +1,24 @@
+strcmp (6.8.5) {0} int function 
+    s1 (6.8.20) {1} string variable param lval 
+    s2 (6.8.31) {1} string variable param lval 
+
+    index (6.9.8) {1} int variable lval 
+    contin (6.10.8) {1} int variable lval 
+        s1c (6.12.11) {2} int variable lval 
+        s2c (6.13.11) {2} int variable lval 
+        cmp (6.14.11) {2} int variable lval 
+insertion_sort (6.22.6) {0} void function 
+    size (6.22.26) {1} int variable param lval 
+    string (6.22.32) {1} string array variable param lval 
+
+    sorted (6.23.8) {3} int variable lval 
+        slot (6.25.11) {4} int variable lval 
+        contin (6.27.11) {4} int variable lval 
+print_array (6.43.6) {0} void function 
+    label (6.43.26) {1} string variable param lval 
+    size (6.43.37) {1} int variable param lval 
+    string (6.43.43) {1} string array variable param lval 
+
+    index (6.47.8) {9} int variable lval 
+string (6.55.1) {0} string variable lval 
+argc (6.56.5) {0} int variable lval 

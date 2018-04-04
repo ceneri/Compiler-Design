@@ -1,0 +1,5 @@
+foo (6.5.8) {0} 
+    a (6.6.8) {0} field int 
+
+a (6.9.5) {0} int variable lval 
+b (6.10.5) {0} struct "foo" variable lval 

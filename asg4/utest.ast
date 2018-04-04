@@ -1,0 +1,7 @@
+ROOT "" (0.0.0) {0} 
+|   PROTOTYPE "" (3.1.1) {0} 
+|   |   INT "int" (3.1.1) {0} int 
+|   |   |   DECLID "func" (3.1.5) {0} int function 
+|   |   PARAMLIST "(" (3.1.9) {0} 
+|   |   |   INT "int" (3.1.10) {0} int 
+|   |   |   |   DECLID "a" (3.1.14) {0} int variable param lval 

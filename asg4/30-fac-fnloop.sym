@@ -1,0 +1,5 @@
+fac (6.8.5) {0} int function 
+    n (6.8.14) {1} int variable param lval 
+
+    f (6.9.8) {1} int variable lval 
+n (6.17.5) {0} int variable lval 

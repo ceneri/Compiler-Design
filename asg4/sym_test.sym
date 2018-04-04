@@ -1,0 +1,21 @@
+node (3.1.8) {0} 
+    foo (3.1.19) {0} field int 
+    link (3.1.29) {0} struct "node" field 
+    aaa (3.1.39) {0} field int 
+    bbb (3.1.48) {0} field int 
+    ccc (3.1.57) {0} field int 
+
+something (3.2.8) {0} 
+func (3.3.6) {0} struct "node" function 
+    head (3.3.17) {1} struct "node" variable param lval 
+    length (3.3.27) {1} int variable param lval 
+
+    a (3.4.9) {1} int variable lval 
+    b (3.4.23) {1} string variable lval 
+    c (3.4.36) {1} struct "node" variable lval 
+        d (3.5.22) {2} int variable lval 
+        e (3.6.23) {3} string variable lval 
+            f (3.7.31) {4} int variable lval 
+            g (3.8.28) {5} int variable lval 
+h (3.11.6) {0} struct "node" variable lval 
+i (3.12.6) {0} struct "node" variable lval 

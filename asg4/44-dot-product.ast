@@ -1,0 +1,157 @@
+ROOT "" (0.0.0) {0} 
+|   PROTOTYPE "" (5.28.1) {0} 
+|   |   VOID "void" (5.28.1) {0} void 
+|   |   |   DECLID "__assert_fail" (5.28.6) {0} void function 
+|   |   PARAMLIST "(" (5.28.20) {0} 
+|   |   |   STRING "string" (5.28.21) {0} string 
+|   |   |   |   DECLID "expr" (5.28.28) {0} string variable param lval 
+|   |   |   STRING "string" (5.28.34) {0} string 
+|   |   |   |   DECLID "file" (5.28.41) {0} string variable param lval 
+|   |   |   INT "int" (5.28.47) {0} int (0.0.0)
+|   |   |   |   DECLID "line" (5.28.51) {0} int variable param lval 
+|   PROTOTYPE "" (5.29.1) {0} 
+|   |   VOID "void" (5.29.1) {0} void 
+|   |   |   DECLID "putb" (5.29.6) {0} void function 
+|   |   PARAMLIST "(" (5.29.11) {0} 
+|   |   |   INT "int" (5.29.12) {0} int (0.0.0)
+|   |   |   |   DECLID "b" (5.29.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.30.1) {0} 
+|   |   VOID "void" (5.30.1) {0} void 
+|   |   |   DECLID "putc" (5.30.6) {0} void function 
+|   |   PARAMLIST "(" (5.30.11) {0} 
+|   |   |   INT "int" (5.30.12) {0} int (0.0.0)
+|   |   |   |   DECLID "c" (5.30.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.31.1) {0} 
+|   |   VOID "void" (5.31.1) {0} void 
+|   |   |   DECLID "puti" (5.31.6) {0} void function 
+|   |   PARAMLIST "(" (5.31.11) {0} 
+|   |   |   INT "int" (5.31.12) {0} int (0.0.0)
+|   |   |   |   DECLID "i" (5.31.16) {0} int variable param lval 
+|   PROTOTYPE "" (5.32.1) {0} 
+|   |   VOID "void" (5.32.1) {0} void 
+|   |   |   DECLID "puts" (5.32.6) {0} void function 
+|   |   PARAMLIST "(" (5.32.11) {0} 
+|   |   |   STRING "string" (5.32.12) {0} string 
+|   |   |   |   DECLID "s" (5.32.19) {0} string variable param lval 
+|   PROTOTYPE "" (5.33.1) {0} 
+|   |   VOID "void" (5.33.1) {0} void 
+|   |   |   DECLID "endl" (5.33.6) {0} void function 
+|   |   PARAMLIST "(" (5.33.11) {0} 
+|   PROTOTYPE "" (5.34.1) {0} 
+|   |   INT "int" (5.34.1) {0} int (0.0.0)
+|   |   |   DECLID "getc" (5.34.5) {0} int function 
+|   |   PARAMLIST "(" (5.34.10) {0} 
+|   PROTOTYPE "" (5.35.1) {0} 
+|   |   STRING "string" (5.35.1) {0} string 
+|   |   |   DECLID "getw" (5.35.8) {0} string function 
+|   |   PARAMLIST "(" (5.35.13) {0} 
+|   PROTOTYPE "" (5.36.1) {0} 
+|   |   STRING "string" (5.36.1) {0} string 
+|   |   |   DECLID "getln" (5.36.8) {0} string function 
+|   |   PARAMLIST "(" (5.36.14) {0} 
+|   PROTOTYPE "" (5.37.7) {0} 
+|   |   ARRAY "[]" (5.37.7) {0} array 
+|   |   |   STRING "string" (5.37.1) {0} string array function 
+|   |   |   DECLID "getargv" (5.37.10) {0} 
+|   |   PARAMLIST "(" (5.37.18) {0} 
+|   PROTOTYPE "" (5.38.1) {0} 
+|   |   VOID "void" (5.38.1) {0} void 
+|   |   |   DECLID "exit" (5.38.6) {0} void function 
+|   |   PARAMLIST "(" (5.38.11) {0} 
+|   |   |   INT "int" (5.38.12) {0} int (0.0.0)
+|   |   |   |   DECLID "status" (5.38.16) {0} int variable param lval 
+|   FUNCTION "" (6.5.1) {0} function 
+|   |   INT "int" (6.5.1) {0} int (0.0.0)
+|   |   |   DECLID "dot_product" (6.5.5) {0} int function (0.0.0)
+|   |   PARAMLIST "(" (6.5.17) {0} 
+|   |   |   INT "int" (6.5.18) {0} int (0.0.0)
+|   |   |   |   DECLID "size" (6.5.22) {1} int variable param lval (0.0.0)
+|   |   |   ARRAY "[]" (6.5.31) {0} array 
+|   |   |   |   INT "int" (6.5.28) {1} int array variable param lval (0.0.0)
+|   |   |   |   DECLID "vec1" (6.5.34) {0} 
+|   |   |   ARRAY "[]" (6.5.43) {0} array 
+|   |   |   |   INT "int" (6.5.40) {1} int array variable param lval (0.0.0)
+|   |   |   |   DECLID "vec2" (6.5.46) {0} 
+|   |   BLOCK "{" (6.5.52) {0} 
+|   |   |   VARDECL "=" (6.6.14) {0} 
+|   |   |   |   INT "int" (6.6.4) {0} int (0.0.0)
+|   |   |   |   |   DECLID "index" (6.6.8) {0} int variable lval 
+|   |   |   |   INTCON "0" (6.6.16) {0} int const 
+|   |   |   VARDECL "=" (6.7.12) {0} 
+|   |   |   |   INT "int" (6.7.4) {0} int (0.0.0)
+|   |   |   |   |   DECLID "dot" (6.7.8) {0} int variable lval 
+|   |   |   |   INTCON "0" (6.7.14) {0} int const 
+|   |   |   WHILE "while" (6.8.4) {0} 
+|   |   |   |   LT "<" (6.8.17) {0} int vreg 
+|   |   |   |   |   IDENT "index" (6.8.11) {0} 
+|   |   |   |   |   IDENT "size" (6.8.19) {0} (0.0.0)
+|   |   |   |   BLOCK "{" (6.8.25) {0} 
+|   |   |   |   |   '=' "=" (6.9.11) {0} vreg 
+|   |   |   |   |   |   IDENT "dot" (6.9.7) {0} variable lval 
+|   |   |   |   |   |   '+' "+" (6.9.17) {0} 
+|   |   |   |   |   |   |   IDENT "dot" (6.9.13) {0} 
+|   |   |   |   |   |   |   '*' "*" (6.9.31) {0} 
+|   |   |   |   |   |   |   |   INDEX "[" (6.9.23) {0} 
+|   |   |   |   |   |   |   |   |   IDENT "vec1" (6.9.19) {0} 
+|   |   |   |   |   |   |   |   |   IDENT "index" (6.9.24) {0} 
+|   |   |   |   |   |   |   |   INDEX "[" (6.9.37) {0} 
+|   |   |   |   |   |   |   |   |   IDENT "vec2" (6.9.33) {0} 
+|   |   |   |   |   |   |   |   |   IDENT "index" (6.9.38) {0} 
+|   |   |   |   |   '=' "=" (6.10.13) {0} vreg 
+|   |   |   |   |   |   IDENT "index" (6.10.7) {0} variable lval 
+|   |   |   |   |   |   '+' "+" (6.10.21) {0} 
+|   |   |   |   |   |   |   IDENT "index" (6.10.15) {0} 
+|   |   |   |   |   |   |   INTCON "1" (6.10.23) {0} int const 
+|   |   |   RETURN "return" (6.12.4) {0} 
+|   |   |   |   IDENT "dot" (6.12.11) {0} 
+|   VARDECL "=" (6.16.12) {0} 
+|   |   ARRAY "[]" (6.16.4) {0} array 
+|   |   |   INT "int" (6.16.1) {0} int variable lval (0.0.0)
+|   |   |   DECLID "vec1" (6.16.7) {0} 
+|   |   NEWARRAY "new" (6.16.14) {0} 
+|   |   |   INT "int" (6.16.18) {0} int (0.14554592.0)
+|   |   |   INTCON "10" (6.16.22) {0} int const 
+|   VARDECL "=" (6.17.12) {0} 
+|   |   ARRAY "[]" (6.17.4) {0} array 
+|   |   |   INT "int" (6.17.1) {0} int variable lval (14576000.0.0)
+|   |   |   DECLID "vec2" (6.17.7) {0} 
+|   |   NEWARRAY "new" (6.17.14) {0} 
+|   |   |   INT "int" (6.17.18) {0} int (0.0.0)
+|   |   |   INTCON "10" (6.17.22) {0} int const 
+|   VARDECL "=" (6.18.7) {0} 
+|   |   INT "int" (6.18.1) {0} int (0.0.0)
+|   |   |   DECLID "i" (6.18.5) {0} int variable lval 
+|   |   INTCON "0" (6.18.9) {0} int const 
+|   WHILE "while" (6.19.1) {0} 
+|   |   LT "<" (6.19.10) {0} int vreg 
+|   |   |   IDENT "i" (6.19.8) {0} 
+|   |   |   INTCON "10" (6.19.12) {0} int const 
+|   |   BLOCK "{" (6.19.16) {0} 
+|   |   |   '=' "=" (6.20.12) {0} vreg 
+|   |   |   |   INDEX "[" (6.20.8) {0} variable lval 
+|   |   |   |   |   IDENT "vec1" (6.20.4) {0} 
+|   |   |   |   |   IDENT "i" (6.20.9) {0} 
+|   |   |   |   '+' "+" (6.20.16) {0} 
+|   |   |   |   |   IDENT "i" (6.20.14) {0} 
+|   |   |   |   |   INTCON "10" (6.20.18) {0} int const 
+|   |   |   '=' "=" (6.21.12) {0} vreg 
+|   |   |   |   INDEX "[" (6.21.8) {0} variable lval 
+|   |   |   |   |   IDENT "vec2" (6.21.4) {0} 
+|   |   |   |   |   IDENT "i" (6.21.9) {0} 
+|   |   |   |   '*' "*" (6.21.16) {0} 
+|   |   |   |   |   IDENT "i" (6.21.14) {0} 
+|   |   |   |   |   INTCON "10" (6.21.18) {0} int const 
+|   |   |   '=' "=" (6.22.6) {0} vreg 
+|   |   |   |   IDENT "i" (6.22.4) {0} variable lval 
+|   |   |   |   '+' "+" (6.22.10) {0} 
+|   |   |   |   |   IDENT "i" (6.22.8) {0} 
+|   |   |   |   |   INTCON "1" (6.22.12) {0} int const 
+|   CALL "(" (6.24.6) {0} 
+|   |   IDENT "puti" (6.24.1) {0} 
+|   |   CALL "(" (6.24.19) {0} 
+|   |   |   IDENT "dot_product" (6.24.7) {0} (0.0.0)
+|   |   |   INTCON "10" (6.24.20) {0} int const 
+|   |   |   IDENT "vec1" (6.24.24) {0} 
+|   |   |   IDENT "vec2" (6.24.30) {0} 
+|   CALL "(" (6.25.6) {0} 
+|   |   IDENT "endl" (6.25.1) {0} 

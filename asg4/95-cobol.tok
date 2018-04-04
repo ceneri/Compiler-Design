@@ -1,0 +1,6 @@
+#  1  "95-cobol.oc" 
+#  2  "<built-in>" 
+#  3  "<command-line>" 
+#  4  "95-cobol.oc" 
+   4   3.001  277  TOK_INTCON      (000100)
+   4   3.008  276  TOK_IDENT       (IDENTIFICATION)

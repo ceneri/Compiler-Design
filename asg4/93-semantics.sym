@@ -1,0 +1,6 @@
+int (3.4.1) {0} int variable lval 
+int (3.5.1) {0} int variable lval 
+void (3.7.1) {0} void array function 
+
+x (3.9.6) {0} struct "bool" variable lval 
+y (3.10.6) {0} struct "bool" variable lval 
